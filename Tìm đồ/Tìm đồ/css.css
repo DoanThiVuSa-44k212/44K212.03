@@ -1,0 +1,195 @@
+ * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .top-menu {
+        width: auto;
+        height: 30px;
+        background-color: #FF5900;
+    }
+    .top-menu li{
+    float:left;
+    color: white;
+    padding: 0px 08px;
+    font-size: 13px;
+    margin-left: 10px;
+    }
+    ul{
+    padding-top: 5px;
+    margin-left: 10%; 
+    }
+    .timkiem {
+    margin-top: -20px;
+    margin-left: 930px;
+    }
+    .heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 407px 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .menu-border {
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        height: 70px;
+    }
+    .menu ul {
+        text-align: center;
+        background-color: transparent;
+        height: 70px;
+    }
+    .menu ul li {
+        display: inline;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: black;
+        line-height: 70px;
+        font-size: 14px;
+        padding: 0 25px;
+    }
+    .footer {
+        background-color: #005b96;
+        height: 100px;
+    }
+    .footer span {
+        font-size: 13px;
+        color: #b5b5b5;
+        line-height: 100px;
+        display: block;
+        text-align: center;
+    }
+    .item {
+    float: left;
+    margin-top: 20px;
+    }
+     
+    .item1 {
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .item  img {
+        width: 100px;
+        margin-left: 50px;
+    }
+    .content{
+        width: 1148px;
+        margin:0px auto;
+    }
+    .set{
+        padding-top:50px;
+        padding-bottom: 30px;
+    }
+    .set table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .set table th{
+        border: 1px solid black;
+        height: 50px;
+    }
+    .set table td{
+        border: 1px solid black;
+        text-align: center;
+        height: 50px;
+    }
+    .set table th pro{
+        width: 200px;
+    }
+    th co{
+        width: 100px;
+    }
+    th size{
+        width: 100px;
+    }
+    th pri{
+        width: 150px;
+    }
+    th quan{
+        width: 200px;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item{
+        display: grid;
+        grid-template-columns: 220px 50px;
+    }
+    .item .body1 p{
+        padding: 10px;
+    }
+    .item .body2 p{
+        padding: 10px;
+    }
+    .format{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .format .header{
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #e1e1e1;
+    }
+    .form{
+        display:grid;
+        grid-template-columns: 250px 800px;
+        background-color: #e1e1e1;
+    }
+    .name{
+        display:grid;
+        grid-template-columns: 250px 800px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 40px;
+    }
+    .intname{
+        height: 40px;
+        width: 800px;
+    }
+    .intemail{
+        height: 40px;
+        width: 800px;
+    }
+    .intdiachi{
+        height: 40px;
+        width: 800px;
+    }
+    .name label label {
+        color:red;
+    }
+    .button{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 610px;
+    }
+    .button :hover{
+        cursor: pointer;
+    }
+    .button-2 button{
+        height: 50px;
+        width: 220px;
+        background-color: red;
+        line-height: 50px;
+        color: #ffffff;
+        border: 0px;
+    }
+    .button-1 button{
+        height: 50px;
+        width: 220px;
+        background-color: #e1e1e1;
+        color: black;
+        border: 1px solid black;
+    }

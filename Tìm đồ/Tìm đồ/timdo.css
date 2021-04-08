@@ -1,0 +1,184 @@
+* {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .top-menu {
+        width: auto;
+        height: 30px;
+        background-color: #FF5900;
+    }
+    .top-menu li{
+    float:left;
+    color: white;
+    padding: 0px 08px;
+    font-size: 13px;
+    margin-left: 10px;
+    }
+    ul{
+    padding-top: 5px;
+    margin-left: 10%; 
+    }
+    .timkiem {
+    margin-top: -01px;
+    margin-left: 1100px;
+    }
+    .heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 407px 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .menu-border {
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        height: 70px;
+    }
+    .menu ul {
+        text-align: center;
+        background-color: transparent;
+        height: 70px;
+    }
+    .menu ul li {
+        display: inline;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: black;
+        line-height: 70px;
+        font-size: 14px;
+        padding: 0 25px;
+    }
+    .footer {
+        background-color: #005b96;
+        height: 100px;
+    }
+    .footer span {
+        font-size: 13px;
+        color: #b5b5b5;
+        line-height: 100px;
+        display: block;
+        text-align: center;
+    }
+    .content{
+    padding: 25px;
+    }
+    .banner{
+        text-align: center;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .product-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .product-item{
+        display: grid;
+        grid-template-columns: 65px 1fr;
+        grid-gap: 10px;
+    }
+    .product-item-content h3, .product-item-content p{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .product-item-content a{
+        color: black;
+        text-decoration: none;
+    }
+    .techno-heading a{
+        color: black;
+        text-decoration: none;
+    }
+    .product-heading h2{
+        margin-top: 20px;
+        padding: 30px 10px;
+    }
+    .product-heading a{
+        color: black;
+        text-decoration: none;
+    }
+    .techno{
+        padding: 20px;
+    }
+    .techno-item{
+        display: grid;
+        grid-template-columns: 480px 1fr;
+        grid-gap: 20px;
+        padding: 35px 0;
+    }
+    .techno-heading h2{
+        color: black;
+    }
+    .techno-item-content h3{
+        padding: 30px 0;
+        color: black;
+    }
+    .techno-item-content a{
+        color: black;
+        text-decoration: none;
+    }
+    .copyright{
+        color: #ffffff;
+        padding: 20px 20px;
+    }
+    .social-link{
+        text-align: right;
+        padding: 20px 20px;
+    }
+    .button{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        padding-left: 210px;
+    }
+    .button :hover{
+        cursor: pointer;
+    }
+    /*.button-2 button{
+        height: 50px;
+        width: 220px;
+        background-color: red;
+        line-height: 50px;
+        color: #ffffff;
+        border: 0px;
+    }*/
+    .button-1 button{
+        height: 50px;
+        width: 220px;
+        background-color:   #FF4500;
+        color: black;
+        border: 1px solid black;
+    }
+    .table1{
+    margin-top: -445px;
+    width: 1148px;
+    height: 575px;
+    text-align: left;
+    }
+ /*   .table2{
+        width: 1148px;
+        height: 575px;
+        text-align: center;
+    }*/
+    thead{
+        background-color:   #FF0000;
+    }
+    tbody tr:nth-child(even){
+        background-color:  #FF7F50;
+    }
+    tbody tr:nth-child(odd){
+        background-color:       #FF6347;
+    }
+    th, td{
+        width: 263px;
+        height: 45px;
+        padding-left: 35px;
+        border: 1px solid white;
+    }
